@@ -27,4 +27,4 @@ function getRandomInt(min, max) {
        }
        return array
 }  
-export {getRandomInt,getRandomPositiveFloat,getRandomArrayElement}
+export {getRandomInt,getRandomPositiveFloat,getRandomArrayElement,getRandomArray}
