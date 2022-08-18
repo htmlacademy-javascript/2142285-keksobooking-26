@@ -1,9 +1,9 @@
 import {getRandomInt,getRandomPositiveFloat,getRandomArrayElement,getRandomArray} from './util.js';
 
-const getLocation = () => ({
+const getLocation = () => ({ 
     lat:getRandomPositiveFloat(35.65000,35.70000,5),
     lng:getRandomPositiveFloat (139.70000,139.80000,5)
-    })
+})
 
 const types =[`palace`, `flat`, `house`, `bungalow`,`hotel`];
 const checkins =[`12:00`, `13:00`,`14:00`];
